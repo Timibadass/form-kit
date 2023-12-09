@@ -1,11 +1,14 @@
 <template>
   <div>
 
-    <LoginForm />
+    <!-- <LoginForm /> -->
+    <!-- <VuelidateForm /> -->
+    <FormKitExample />
   </div>
 </template>
 <script>
-// import LoginForm from './components/LoginForm.vue';
+
+
 </script>
 <style>
 form {
@@ -19,7 +22,7 @@ label {
   margin-bottom: 5px;
 }
 
-input {
+input, select {
   width: 100%;
   height: 40px;
   border: 1px solid #eee;
@@ -32,6 +35,7 @@ input {
 button {
   width: 100%;
   border-radius: 10px;
+  cursor: pointer;
   border: 0;
   height: 40px;
   background-color: #e0e0e0;
