@@ -4,7 +4,8 @@
     <!-- <LoginForm /> -->
     <!-- <VuelidateForm /> -->
     <!-- <FormKitExample /> -->
-    <ErrorHandling />
+    <!-- <ErrorHandling /> -->
+    <SchemaExample />
   </div>
 </template>
 <script>
