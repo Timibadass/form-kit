@@ -3,7 +3,8 @@
 
     <!-- <LoginForm /> -->
     <!-- <VuelidateForm /> -->
-    <FormKitExample />
+    <!-- <FormKitExample /> -->
+    <ErrorHandling />
   </div>
 </template>
 <script>
@@ -22,7 +23,7 @@ label {
   margin-bottom: 5px;
 }
 
-input, select {
+input, select, textarea {
   width: 100%;
   height: 40px;
   border: 1px solid #eee;
@@ -30,6 +31,10 @@ input, select {
   padding-left: 20px;
   box-sizing: border-box;
   margin-bottom: 20px;
+}
+
+textarea {
+  height: 100px;
 }
 
 button {
