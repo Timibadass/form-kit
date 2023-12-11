@@ -3,9 +3,9 @@
 
     <!-- <LoginForm /> -->
     <!-- <VuelidateForm /> -->
-    <!-- <FormKitExample /> -->
+    <FormKitExample />
     <!-- <ErrorHandling /> -->
-    <SchemaExample />
+    <!-- <SchemaExample /> -->
   </div>
 </template>
 <script>
