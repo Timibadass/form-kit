@@ -1,6 +1,6 @@
 <template>
  <div>
-  <FormKit type="form" submit-label="Submit" @submit="validateForm">
+  <FormKit type="form" submit-label="Submit" @submit="validateForm" use-local-storage>
    <FormKit label="Car brand" type="select" :options="cars" name="cars" v-model="state.car" validation="required" />
    <FormKit label="Number of seats" type="select" :options="seats" name="numberOfSeats" v-model="state.numberOfSeats" validation="required" />
    <FormKit label="Price" type="number" v-model="state.price" name="price" validation="required | min:10000 | max:50000" :validation-messages="{
