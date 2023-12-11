@@ -1,5 +1,5 @@
 <template>
-	<FormKitSchema :schema="schema" />
+	<FormKitSchema :schema="divSchema" />
 </template>
 
 <script setup>
@@ -28,6 +28,28 @@ const schema = ref([
 		],
 	},
 ]);
+const divSchema = ref([
+ {
+  $el: 'div',
+  children: [
+   {
+    $el: 'h1',
+    children: 'This is a heading',
+   },
+   {
+    $el: 'p',
+    children: 'This is a paragraph',
+   },
+   {
+    $el: 'p',
+    children: 'This is another paragraph but with styling',
+    attrs: {
+     style: {color: 'blue'}
+    }
+   }
+  ]
+ }
+])
 </script>
 
 <style lang="scss" scoped></style>
